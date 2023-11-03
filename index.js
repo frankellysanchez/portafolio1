@@ -152,14 +152,14 @@ function modalMovieApp(){
                         </p>
                     </div>
                     <div class=" py-3 w-96 h-96">
-                        <img src="/imagenes/hero.png" class="showImage w-full h-full rounded-3xl drop-shadow-lg max-h-[600px] max-w-5xl cursor-pointer">
+                        <img src="imagenes/hero.png" class="showImage w-full h-full rounded-3xl drop-shadow-lg max-h-[600px] max-w-5xl cursor-pointer">
                     </div>
             </div>
 
 
             <div class="m-auto flex justify-center my-5">
                 <div class=" py-3 px-2 w-96 h-96">
-                    <img src="/imagenes/mobilheros.jpg" class=" showImage w-full h-full rounded-3xl drop-shadow-lg max-h-[600px] max-w-5xl cursor-pointer">
+                    <img src="imagenes/mobilheros.jpg" class=" showImage w-full h-full rounded-3xl drop-shadow-lg max-h-[600px] max-w-5xl cursor-pointer">
                 </div>
                 <div class="max-w-sm px-2 mx-5">
                     <h3 class=" text-2xl font-semibold py-5 text-[#3d9bf3]">Responsive Mobile</h3>
@@ -174,13 +174,13 @@ function modalMovieApp(){
                     </p>
                 </div>
                 <div class=" py-3 px-2 w-96 h-96">
-                    <img  src="/imagenes/Screenshot 2023-09-29 162447.png" class="showImage w-full h-full rounded-3xl drop-shadow-lg max-h-[600px] max-w-5xl cursor-pointer">
+                    <img  src="imagenes/Screenshot 2023-09-29 162447.png" class="showImage w-full h-full rounded-3xl drop-shadow-lg max-h-[600px] max-w-5xl cursor-pointer">
                 </div>
             </div>
 
             <div class="m-auto flex justify-center my-5">
                 <div class=" py-3 px-2 w-96 h-96">
-                    <img  src="/imagenes/skeleton.jpg" class="showImage w-full h-full rounded-3xl drop-shadow-lg max-h-[600px] max-w-5xl cursor-pointer">
+                    <img  src="imagenes/skeleton.jpg" class="showImage w-full h-full rounded-3xl drop-shadow-lg max-h-[600px] max-w-5xl cursor-pointer">
                 </div>
                 <div class="max-w-sm px-2 mx-5">
                     <h3 class=" text-2xl font-semibold py-5 text-[#3d9bf3]">Skeleton Loader</h3>
@@ -191,7 +191,7 @@ function modalMovieApp(){
                 <div class="absolute bottom-1 py-5"> 
                 <p class="text-center py-2 ">Webside Link</P>
                     <a href="https://fontis.ai/" target="_blank">
-                        <img src="/imagenes/fontisai_logo.png" class="w-[300px] h-[50px]transform transition-transform hover:scale-110 ease-in-out duration-300" blank=""> 
+                        <img src="imagenes/fontisai_logo.png" class="w-[300px] h-[50px]transform transition-transform hover:scale-110 ease-in-out duration-300" blank=""> 
                     </a> 
                 </div>
         </div>
