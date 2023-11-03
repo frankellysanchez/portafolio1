@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body
+    class="bg-gradient-to-r from-indigo-950 from-10% via-sky-950 via-30% to-blue-950 to-90%"
+  > <header id="headerContainer"
+  class="w-full h-screen rounded-t-2xl"
+>
+
+<nav  id="navContainer"
+      class="w-full h-20  text-white font-semibold z-50 ">
+  <div class="flex justify-between  items-center max-w-6xl h-full text-lg m-auto">
+    <div class="px-4"><p class="text-3xl"><a href="#headerContainer">FS</a></div>
+
+    <div  id="navBtn"
+          class="hidden">
+      <ul class="flex">
+        <li class="mx-10 cursor-pointer"><a id="AboutMe">About me</a></li>
+        <li class="mx-10 cursor-pointer"><a id="Project">Project</a></li>
+      </ul>
+    </div>
+    
+    <div id="btnMenu" class="px-1 hidden">
+      <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+      <svg width="56px" height="56px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6 12H18" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M6 15.5H18" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M6 8.5H18" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+  </div>
+</nav>
+
+<div id="modalContainer" class="md:hidden">
+</div>
+<!-- <div class="absolute w-10 h-10 bg-gradient-to-r from-violet-500 to-purple-500 right-0 radial-gradient"></div> -->
+
+  <div
+    id="heroContainer"
+    class="w-full h-full grid grid-cols-1 justify-center items-center text-white font-bold text-center mb-10"
+  >
+  <div class="m-auto flex items-center flex-col">
+    
+    <div class="m-auto ">
+      <div> <img src="/imagenes/1689564132637.jpeg" alt="profile" class="rounded-full md:w-52 md:h-52 w-40 h-40"></div>
+      <h1 class="md:text-5xl  text-3xl text-[#655ddc] pt-4">!Hi, Im!</h1>
+    </div>
+    <div class="m-auto md:text-6xl py-4 text-4xl">
+      <h1>Frankelly J. Sanchez Reyes</h1>
+    </div>
+    <div class="m-auto text-2xl font-semibold">
+      <h4 id="typingText"></h4>
+    </div>
+
+    <div id="contactContainer" class="flex items-center justify-center my-8 w-full h-full cursor-pointer"><a href="https://github.com/frankellysanchez">
+            <div class="mx-10 md:w-14 md:h-14  w-10 h-10 object-cover transform transition-transform hover:scale-110 ease-in-out duration-300">
+              <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+              <svg width="full" height="full" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#655ddc">
+                      <g id="icons" transform="translate(56.000000, 160.000000)">
+                          <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
+                          </path>
+                      </g>
+                  </g>
+              </g>
+            </svg>
+          </a>
+          </div>
+
+
+          <div class="mx-10 md:w-14 md:h-14  w-10 h-10 object-cover transform transition-transform hover:scale-110 ease-in-out duration-300 cursor-pointer">
+            <a href="https://www.linkedin.com/in/frankelly-s%C3%A1nchez-9192771bb/">
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <svg width="full" height="full" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)" fill="#655ddc">
+                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z" id="linkedin-[#161]">
+                            </path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            </a>
+          </div>
+
+    </div>
+
+  </div>
+  </div>
+</header>
+
+<section class="mx-4 relative h-[600px] flex flex-col items-center justify-center" id="mainCotainer">
+    
+  <h1 class="font-bold text-3xl text-white  mt-36 mx-auto mb-5">About me</h1>
+  <div
+    class="element w-full h-auto grid grid-cols-1 justify-center items-center content-center  max-w-6xl mx-auto rounded-3xl text-white drop-shadow-xl "
+  >
+  
+    <div
+      class="w-11/12 h-auto m-auto  rounded-xl flex flex-col items-center p-5"
+    >
+      
+
+      <p class="text-xl p-1 max-w-2xl">
+        I'm an enthusiastic and forward-thinking Junior Frontend Developer with a strong foundation in UX/UI design. I have a technical and professional approach, constantly seeking challenges, embracing fresh perspectives to expand my knowledge, and demonstrating strong discipline and motivation for personal and professional growth. I'm excited to apply and enhance my skills in every project.
+      </p>
+      <h3 class="font-bold text-2xl py-4 text-[#655ddc]">Skills</h3>
+      <div
+        class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 md:gap-7 items-center justify-between my-8 gap-10 "
+      >
+        <div class="w-auto h-auto m-auto ">
+          <img src="/imagenes/html.png" alt="" class="h-[64px] w-[64px] object-cover transform transition-transform hover:scale-110 ease-in-out duration-300" />
+        </div>
+        <div class="w-auto h-auto m-auto">
+          <img src="/imagenes/css-3.png" alt="" class="h-[64px] w-[64px] object-cover transform transition-transform hover:scale-110 ease-in-out duration-300" />
+        </div>
+        <div class="w-auto h-auto m-auto rounded-lg overflow-hidden object-cover transform transition-transform hover:scale-110 ease-in-out duration-300">
+          <img src="/imagenes/js.png" alt="" class="h-[64px] w-[64px] " />
+        </div>
+        <div class="w-auto h-auto m-auto rounded-lg overflow-hidden object-cover transform transition-transform hover:scale-110 ease-in-out duration-300">
+          <?xml version="1.0" encoding="UTF-8"?>
+            <svg width="74px" height="74px" viewBox="0 -101.5 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+             <g>
+                <path d="M120.81043,80.5613102 L217.378325,80.5613102 L217.378325,88.2366589 L129.662487,88.2366589 L129.662487,146.003758 L212.147564,146.003758 L212.147564,153.679106 L129.662487,153.679106 L129.662487,217.101725 L218.384241,217.101725 L218.384241,224.777073 L120.81043,224.777073 L120.81043,80.5613102 Z M226.0292,80.5613102 L236.289538,80.5613102 L281.756922,143.983929 L328.230222,80.5613102 L391.441486,0 L287.591232,150.649363 L341.105941,224.777073 L330.443237,224.777073 L281.756922,157.314798 L232.869425,224.777073 L222.407904,224.777073 L276.324978,150.649363 L226.0292,80.5613102 Z M344.928421,88.2366588 L344.928421,80.5613102 L454.975585,80.5613102 L454.975585,88.2366589 L404.27744,88.2366589 L404.27744,224.777073 L395.425382,224.777073 L395.425382,88.2366589 L344.928421,88.2366588 Z M1.42108547e-14,80.5613102 L11.0650714,80.5613102 L163.64593,308.884007 L100.591558,224.777073 L9.25442331,91.4683847 L8.85205708,224.777073 L1.42108547e-14,224.777073 L1.42108547e-14,80.5613102 Z M454.083705,214.785469 C452.275167,214.785469 450.918762,213.38418 450.918762,211.573285 C450.918762,209.762388 452.275167,208.361099 454.083705,208.361099 C455.913774,208.361099 457.248648,209.762388 457.248648,211.573285 C457.248648,213.38418 455.913774,214.785469 454.083705,214.785469 Z M462.781915,206.334618 L467.518563,206.334618 C467.583153,208.900055 469.456284,210.624719 472.212151,210.624719 C475.290972,210.624719 477.03492,208.770705 477.03492,205.29982 L477.03492,183.310363 L481.85769,183.310363 L481.85769,205.321379 C481.85769,211.573285 478.240613,215.173518 472.255212,215.173518 C466.635824,215.173518 462.781915,211.681076 462.781915,206.334618 Z M488.166045,206.054362 L492.945754,206.054362 C493.354828,209.007848 496.239878,210.883419 500.395211,210.883419 C504.270652,210.883419 507.11264,208.878498 507.11264,206.119036 C507.11264,203.747625 505.304102,202.324777 501.191828,201.354653 L497.187209,200.384531 C491.56782,199.069474 489.005723,196.353129 489.005723,191.782772 C489.005723,186.24229 493.527071,182.555823 500.30909,182.555823 C506.617445,182.555823 511.224912,186.24229 511.504805,191.480955 L506.811217,191.480955 C506.359083,188.613703 503.861576,186.824365 500.244499,186.824365 C496.43365,186.824365 493.893085,188.656819 493.893085,191.459398 C493.893085,193.679901 495.52938,194.95184 499.577063,195.900406 L503.000368,196.741178 C509.373314,198.228702 512,200.815695 512,205.493846 C512,211.443935 507.392533,215.173518 500.029197,215.173518 C493.139526,215.173518 488.51053,211.6164 488.166045,206.054362 Z" fill="#000000" fill-rule="nonzero">
+                </path>
+            </g>
+            </svg>
+        </div>
+        <div class="w-auto h-auto m-auto">
+          <img
+            src="/imagenes/science.png"
+            alt=""
+            class="h-[64px] w-[64px] object-cover transform transition-transform hover:scale-110 ease-in-out duration-300"
+          />
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="projectContainer" class=" my-60 drop-shadow-lg max-w-7xl m-auto text-white relative ">
+        
+      <h1 class="font-bold text-3xl py-7 text-center">Projects / Constributions</h1>
+
+      <div class="element w-5/6 h-auto m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 items-center justify-between pt-4">
+        
+              <div class="m-auto w-full h-full overflow-hidden rounded-3xl shadow-lg cards bg-[#2C3654] pb-4">
+                  <img
+                    src="/imagenes/hero.png"
+                    alt=""
+                    class="card cursor-pointer h-[200px] w-full object-cover transform transition-transform hover:scale-110 ease-in-out duration-300"
+                  />
+                  <div class="flex items-center flex-col ">
+                        <h2 class="card text-center font-semibold text-xl hover:underline cursor-pointer p-2 m-auto">FontisAI</h2>
+                        <div class="border-[0.3px] w-3/4 mt-2 border-slate-300"></div>
+                        <p class="text-justify px-4 text-slate-200">El conocimiento es el camino
+                          hacia el progreso, y juntos, podemos alcanzar nuevas alturas en
+                          nuestro viaje hacia el futuro
+                        </p>
+                        <div class="flex justify-around pt-3 w-full m-auto">
+                            <div class="m-auto">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><defs><linearGradient x1="0" y1="-21.333" y2="85.333" id="A" x2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#2383ae" offset="0%"/><stop stop-color="#6dd7b9" offset="100%"/></linearGradient></defs><path d="M16 25.6c2.133-8.533 7.467-12.8 16-12.8 12.8 0 14.4 9.6 20.8 11.2 4.267 1.067 8-.533 11.2-4.8C61.867 27.733 56.533 32 48 32c-12.8 0-14.4-9.6-20.8-11.2-4.267-1.067-8 .533-11.2 4.8zM0 44.8C2.133 36.267 7.467 32 16 32c12.8 0 14.4 9.6 20.8 11.2 4.267 1.067 8-.533 11.2-4.8-2.133 8.533-7.467 12.8-16 12.8-12.8 0-14.4-9.6-20.8-11.2-4.267-1.067-8 .533-11.2 4.8z" fill="url(#A)" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="rounded-lg overflow-hidden m-auto">
+                              <img 
+                                src="/imagenes/js.png" 
+                                alt="" 
+                                class="h-[44px] w-[44px]" />
+                            </div>
+                        </div>
+                  </div>
+              </div>
+
+
+
+
+
+
+
+
+            <div class="m-auto w-full h-full overflow-hidden rounded-3xl shadow-lg cards bg-[#2C3654] pb-3">
+              <img
+                src="/imagenes/images2.png"
+                alt=""
+                class="card cursor-pointer h-[200px] w-full object-cover transform transition-transform hover:scale-110 ease-in-out duration-300"
+              />
+              <div class="flex items-center flex-col">
+              <h2
+                class=" card text-center font-semibold text-xl hover:underline cursor-pointer p-2 m-auto"
+              >
+                FontisAI
+              </h2>
+              <div class="border-[0.3px] w-3/4 mt-2 border-slate-300"></div>
+              <p class="text-justify px-4 text-slate-200">El conocimiento es el camino
+                hacia el progreso, y juntos, podemos alcanzar nuevas alturas en
+                nuestro viaje hacia el futuro
+              </p>
+                <div class="flex justify-around pt-3 w-full m-auto">
+                    <div class="m-auto">
+                      <img
+                        src="/imagenes/css-3.png"
+                        alt=""
+                        class="h-[44px] w-[44px]"
+                      />
+                    </div>
+                    <div class="rounded-lg overflow-hidden m-auto">
+                      <img 
+                        src="/imagenes/js.png" 
+                        alt="" 
+                        class="h-[44px] w-[44px]" />
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
+          <div class="m-auto w-full h-full overflow-hidden rounded-3xl shadow-lg cards bg-[#2C3654] pb-3">
+            <img
+              src="/imagenes/images5.png"
+              alt=""
+              class="card cursor-pointer h-[200px] w-full object-cover transform transition-transform hover:scale-110 ease-in-out duration-300"
+            />
+            <div class="flex items-center flex-col">
+            <h2
+              class="card text-center font-semibold text-xl hover:underline cursor-pointer p-2 m-auto"
+            >
+              Other
+            </h2>
+            <div class="border-[0.3px] w-3/4 mt-2 border-slate-300"></div>
+            <p class="text-justify px-4 text-slate-200">El conocimiento es el camino
+              hacia el progreso, y juntos, podemos alcanzar nuevas alturas en
+              nuestro viaje hacia el futuro
+            </p>
+              <div class="flex justify-around pt-3 w-full m-auto">
+                  <div class="m-auto">
+                    <img
+                      src="/imagenes/css-3.png"
+                      alt=""
+                      class="h-[44px] w-[44px]"
+                    />
+                  </div>
+                  <div class="rounded-lg overflow-hidden m-auto">
+                    <img 
+                      src="/imagenes/js.png" 
+                      alt="" 
+                      class="h-[44px] w-[44px]" />
+                  </div>
+              </div>
+          </div>
+        </div>
+     </div>
+
+      <div>
+            <button id="btnClose" class="hidden absolute top-3 z-50 right-3">
+            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+            <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="1.5"/>
+            <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            </button>
+
+            <div id="modalApp" class=""></div>
+      </div>
+
+    </section>
+
+    <footer class="w-full h-32 rounded-r-xl rounded-bl-xl">
+      <div class="border border-t-slate-500 text-center"></div>
+      <p class="text-center text-white py-10">Copy Designed by Frankelly</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
