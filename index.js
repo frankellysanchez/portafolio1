@@ -63,6 +63,7 @@ function showBtnMenu(){
     if(window.innerWidth <= 600){
         navBtn.classList.add("hidden")
         btnMenu.classList.remove("hidden");
+        btnMenu.classList.add("z-50");
     }else if(window.innerWidth >= 601){
         navBtn.classList.remove("hidden")
         btnMenu.classList.add("hidden")
@@ -96,12 +97,12 @@ btnMenu.addEventListener("click", () =>{
             li.appendChild(a)
             ul.appendChild(li)
         });
-        img.src = "/imagenes/1689564132637.jpeg"
+        img.src = "imagenes/1689564132637.jpeg"
         //img.style.borderRadius = "100%"
         img.alt = "avatar"
         img.classList.add("m-0", "w-32", "h-32", "rounded-full")
         ul.classList.add("text-white", "flex", "items-center", "flex-col")
-        div.classList.add("h-screen","text-white","absolute","bg-[#222222]","w-full", "h-screen","z-30","flex","items-center","justify-start","flex-col","pt-20");
+        div.classList.add("h-screen","text-white","absolute","bg-[#222222]","w-full", "h-screen","z-30","flex","items-center","justify-start","flex-col","pt-20", 'top-0');
         div.appendChild(img)
         div.appendChild(ul)
         modalContainer.appendChild(div);
