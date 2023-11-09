@@ -1,4 +1,4 @@
-window.addEventListener ("load", () => {
+
 
     console.log("Script terminó de cargarse y ejecutarse")
     const project = document.getElementById("Project");
@@ -104,7 +104,7 @@ btnMenu.addEventListener("click", () =>{
 
     modalVisible = !modalVisible
 });
-
+window.addEventListener ("load", () => {
 const movieBtn = document.querySelectorAll(".card")
 movieBtn.forEach((element, index) =>{
     element.id=`item${index}`
