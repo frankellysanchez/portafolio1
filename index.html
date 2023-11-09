@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body
-    class="bg-gradient-to-r from-indigo-950 from-10% via-sky-950 via-30% to-blue-950 to-90%"
+    class="bg-gradient-to-r from-indigo-950 from-10% via-sky-950 via-30% to-blue-950 to-90% mx-3"
   > <header id="headerContainer"
   class="w-full h-screen rounded-t-2xl"
 >
@@ -52,7 +52,7 @@
     <div class="m-auto md:text-6xl py-4 text-4xl">
       <h1>Frankelly J. Sanchez Reyes</h1>
     </div>
-    <div class="m-auto text-2xl font-semibold">
+    <div class="m-auto md:text-2xl text-xl font-semibold">
       <h4 id="typingText"></h4>
     </div>
 
@@ -94,7 +94,7 @@
 
 <!-- HERE START THE ABOUT SECTION -->
 
-<section class="mx-4 relative h-[600px] flex flex-col items-center justify-center" id="mainCotainer">
+<section class="mx-4 relative h-[700px] flex flex-col items-center justify-center  mt-[100px]" id="mainCotainer">
     
   <h1 class="font-bold text-3xl text-white  mt-36 mx-auto mb-5">About me</h1>
   <div
@@ -102,7 +102,7 @@
   >
   
     <div
-      class="w-11/12 h-auto m-auto  rounded-xl flex flex-col items-center p-5"
+      class=" w-full md:w-11/12  h-auto m-auto  rounded-xl flex flex-col items-center"
     >
       
 
@@ -111,7 +111,7 @@
       </p>
       <h3 class="font-bold text-2xl py-4 text-[#655ddc]">Skills</h3>
       <div
-        class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 md:gap-7 items-center justify-between my-8 gap-10 "
+        class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 md:gap-7 items-center justify-around my-8 gap-10 w-full"
       >
         <div class="w-auto h-auto m-auto ">
           <img src="imagenes/html.png" alt="" class="h-[64px] w-[64px] object-cover transform transition-transform hover:scale-110 ease-in-out duration-300" />
@@ -148,13 +148,25 @@
 
 <!-- HERE START THE PROJECT SECTION  -->
 
-  <section id="projectContainer" class=" my-60 drop-shadow-lg max-w-7xl m-auto text-white relative ">
+  <section id="projectContainer" class=" my-60 drop-shadow-lg max-w-7xl m-auto text-white relative mx-2 ">
         
       <h1 class="font-bold text-3xl py-7 text-center">Projects / Constributions</h1>
 
-      <div class="element w-5/6 h-auto m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 items-center justify-between pt-4">
+
+    <div  id="modalProjectContainer" class="hidden relative">
+      <button id="btnClose" class="hidden absolute top-3 z-50 right-3">
+        <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+        <svg width="45px" height="45px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="1.5"/>
+        <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <div id="infProjectContainer"></div>
+    </div>
+    
+      <div id="cardsContainer" class="element w-full md:w-5/6 h-auto m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 items-center justify-between pt-4">
         
-              <div class="m-auto w-full h-full overflow-hidden rounded-3xl shadow-lg cards bg-[#2C3654] pb-4">
+              <div class="m-auto w-full h-full overflow-hidden rounded-3xl shadow-lg cards  pb-4  bg-[#2C3654]">
                   <img
                     src="imagenes/hero.png"
                     alt=""
@@ -163,10 +175,10 @@
                   <div class="flex items-center flex-col ">
                         <h2 class="card text-center font-semibold text-xl hover:underline cursor-pointer p-2 m-auto">FontisAI</h2>
                         <div class="border-[0.3px] w-3/4 mt-2 border-slate-300"></div>
-                        <p class="text-justify px-4 text-slate-200">El conocimiento es el camino
+                        <!-- <p class="text-justify px-4 text-slate-200">El conocimiento es el camino
                           hacia el progreso, y juntos, podemos alcanzar nuevas alturas en
                           nuestro viaje hacia el futuro
-                        </p>
+                        </p> -->
                         <div class="flex justify-around pt-3 w-full m-auto">
                             <div class="m-auto">
                               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><defs><linearGradient x1="0" y1="-21.333" y2="85.333" id="A" x2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#2383ae" offset="0%"/><stop stop-color="#6dd7b9" offset="100%"/></linearGradient></defs><path d="M16 25.6c2.133-8.533 7.467-12.8 16-12.8 12.8 0 14.4 9.6 20.8 11.2 4.267 1.067 8-.533 11.2-4.8C61.867 27.733 56.533 32 48 32c-12.8 0-14.4-9.6-20.8-11.2-4.267-1.067-8 .533-11.2 4.8zM0 44.8C2.133 36.267 7.467 32 16 32c12.8 0 14.4 9.6 20.8 11.2 4.267 1.067 8-.533 11.2-4.8-2.133 8.533-7.467 12.8-16 12.8-12.8 0-14.4-9.6-20.8-11.2-4.267-1.067-8 .533-11.2 4.8z" fill="url(#A)" fill-rule="evenodd"/></svg>
@@ -194,7 +206,7 @@
                 alt=""
                 class="card cursor-pointer h-[200px] w-full object-cover transform transition-transform hover:scale-110 ease-in-out duration-300"
               />
-              <div class="flex items-center flex-col">
+              <!-- <div class="flex items-center flex-col">
               <h2
                 class=" card text-center font-semibold text-xl hover:underline cursor-pointer p-2 m-auto"
               >
@@ -220,7 +232,7 @@
                         class="h-[44px] w-[44px]" />
                     </div>
                 </div>
-            </div>
+            </div> -->
           </div>
 
 
@@ -230,7 +242,7 @@
               alt=""
               class="card cursor-pointer h-[200px] w-full object-cover transform transition-transform hover:scale-110 ease-in-out duration-300"
             />
-            <div class="flex items-center flex-col">
+            <!-- <div class="flex items-center flex-col">
             <h2
               class="card text-center font-semibold text-xl hover:underline cursor-pointer p-2 m-auto"
             >
@@ -256,27 +268,15 @@
                       class="h-[44px] w-[44px]" />
                   </div>
               </div>
-          </div>
+          </div> -->
         </div>
 
 
      </div>
 
-      <div>
-            <button id="btnClose" class="hidden absolute top-3 z-50 right-3">
-            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-            <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="1.5"/>
-            <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-            </button>
-
-            <div id="modalApp" class=""></div>
-      </div>
-
     </section>
 
-    <footer class="w-full h-32 rounded-r-xl rounded-bl-xl">
+    <footer class="w-full h-32">
       <div class="border border-t-slate-500 text-center"></div>
       <p class="text-center text-white py-10">Designed by Frankelly S.</p>
     </footer>
